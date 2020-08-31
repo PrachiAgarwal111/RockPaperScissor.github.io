@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap cdn-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!--style.css-->
+    <link rel="stylesheet" href="style.css">
+    <title>Rock Paper Scissor</title>
+</head>
+
+<body>
+    <div class="game">
+        <div class="scores">
+            <div class="computer-score">
+                <h2>Computer</h2>
+                <p>0</p>
+            </div>
+            <div class="player-score">
+                <h2>Player</h2>
+                <p>0</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="intro">
+        <h1>ROCK PAPER SCISSOR</h1>
+        <button class="play-btn">PLAY</button>
+    </div>
+
+    <div class="match fadeOut">
+        <h1 class="winner">Choose your move</h1>
+        <div class="hands">
+            <img src="img/rock_c.png" alt="default hand computer" class="computer-hand">
+            <img src="img/rock_p.png" alt="default hand player" class="player-hand">
+        </div>
+        <div class="options">
+            <button class="rock">rock</button>
+            <button class="paper">paper</button>
+            <button class="scissor">scissor</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="gameJS.js"></script>
+</body>
+
+</html>
